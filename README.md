@@ -24,10 +24,14 @@ UISearchBar aSearchBar;
     // do your stuff here
     return YES;
 }];
-    
+
 ```
-
-
+#### searchBarCancelButtonClicked:
+```objective-c
+[aSearchBar setSearchBarCancelButtonClickedBlock:^(UISearchBar *searchBar) {
+        // do your stuff here
+    }];
+```
 ### LICENSE
 
 Copyright (C) 2013 Developed by Håkon Bogen
