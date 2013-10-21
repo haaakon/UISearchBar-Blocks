@@ -7,6 +7,7 @@
 //
 
 #import "HBViewController.h"
+#import "UISearchBar+Blocks.h"
 
 @interface HBViewController ()
 
@@ -18,12 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UISearchBar *searchBar;
+    searchBa
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

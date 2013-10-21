@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HBViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end
