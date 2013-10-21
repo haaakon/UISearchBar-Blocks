@@ -167,6 +167,7 @@ static const void *UISearchBarSelectedScopeButtonIndexDidChangeKey              
         [delegate searchBarResultsListButtonClicked:searchBar];
     }
 }
+
 - (void)searchBar:(UISearchBar *)searchBar selectedScopeButtonIndexDidChange:(NSInteger)selectedScope
 {
     UISearchBarScopeIndexBlock block = searchBar.searchBarSelectedScopeButtonIndexDidChangeBlock;
@@ -299,7 +300,6 @@ static const void *UISearchBarSelectedScopeButtonIndexDidChangeKey              
 
 - (void)setSearchBarSelectedScopeButtonIndexDidChangeBlock:(void (^)(UISearchBar *, NSInteger))searchBarSelectedScopeButtonIndexDidChangeBlock
 {
-
     [self setDelegateIfNoDelegateSet];
     objc_setAssociatedObject(self, UISearchBarSelectedScopeButtonIndexDidChangeKey, searchBarSelectedScopeButtonIndexDidChangeBlock, OBJC_ASSOCIATION_COPY);
 }
