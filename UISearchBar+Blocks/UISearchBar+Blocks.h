@@ -22,4 +22,16 @@
 @property (copy, nonatomic) void (^searchBarResultsListButtonClickedBlock)(UISearchBar *searchBar);
 @property (copy, nonatomic) void (^searchBarSelectedScopeButtonIndexDidChangeBlock)(UISearchBar *searchBar, NSInteger selectedScope);
 
+- (void)setSearchBarShouldBeginEditingBlock:(BOOL (^)(UISearchBar *))searchBarShouldBeginEditingBlock;
+- (void)setSearchBarTextDidBeginEditingBlock:(void (^)(UISearchBar *))searchBarTextDidBeginEditingBlock;
+- (void)setSearchBarShouldEndEditingBlock:(BOOL (^)(UISearchBar *))searchBarShouldEndEditingBlock;
+- (void)setSearchBarTextDidEndEditingBlock:(void (^)(UISearchBar *))searchBarTextDidEndEditingBlock;
+- (void)setSearchBarTextDidChangeBlock:(void (^)(UISearchBar *, NSString *))searchBarTextDidChangeBlock;
+- (void)setSearchBarShouldChangeTextInRangeBlock:(BOOL (^)(UISearchBar *, NSRange, NSString *))searchBarShouldChangeTextInRangeBlock;
+- (void)setSearchBarSearchButtonClickedBlock:(void (^)(UISearchBar *))searchBarSearchButtonClickedBlock;
+- (void)setSearchBarBookmarkButtonClickedBlock:(void (^)(UISearchBar *))searchBarBookmarkButtonClickedBlock;
+- (void)setSearchBarCancelButtonClickedBlock:(void (^)(UISearchBar *))searchBarCancelButtonClickedBlock;
+- (void)setSearchBarResultsListButtonClickedBlock:(void (^)(UISearchBar *))searchBarResultsListButtonClickedBlock;
+- (void)setSearchBarSelectedScopeButtonIndexDidChangeBlock:(void (^)(UISearchBar *, NSInteger))searchBarSelectedScopeButtonIndexDidChangeBlock;
+
 @end

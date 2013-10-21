@@ -20,7 +20,7 @@ typedef void (^UISearchBarScopeIndexBlock)(UISearchBar *searchBar, NSInteger sel
 
 
 static const void *UISearchBarDelegateKey                                = &UISearchBarDelegateKey;
-static const void *UISearchBarShouldBeginEditingKey                       = &UISearchBarShouldBeginEditingKey;
+static const void *UISearchBarShouldBeginEditingKey                      = &UISearchBarShouldBeginEditingKey;
 static const void *UISearchBarTextDidBeginEditingKey                     = &UISearchBarTextDidBeginEditingKey;
 static const void *UISearchBarShouldEndEditingKey                        = &UISearchBarShouldEndEditingKey;
 static const void *UISearchBarTextDidEndEditingKey                       = &UISearchBarTextDidEndEditingKey;
