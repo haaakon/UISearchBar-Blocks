@@ -19,8 +19,18 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    UISearchBar *searchBar;
-    searchBa
+    [self.searchBar setSearchBarShouldBeginEditingBlock:^BOOL(UISearchBar *searchBar) {
+        // do your stuff here
+        return YES;
+    }];
+    
+    [self.searchBar setSearchBarSelectedScopeButtonIndexDidChangeBlock:^(UISearchBar *searchBar, NSInteger index) {
+        // do your stuff here
+    }];
+    
+    [self.searchBar setSearchBarCancelButtonClickedBlock:^(UISearchBar *searchBar) {
+        // do your stuff here
+    }];
 }
 
 
