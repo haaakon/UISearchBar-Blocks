@@ -21,10 +21,11 @@ UISearchBar aSearchBar;
 
 ####  searchBar:selectedScopeButtonIndexDidChange:
 ```objective-c
-[aSearchBar setSearchBarShouldBeginEditingBlock:^BOOL(UISearchBar *searchBar) {
+    
+[aSearchBar setSearchBarSelectedScopeButtonIndexDidChangeBlock:^(UISearchBar *searchBar, NSInteger index) {
     // do your stuff here
-    return YES;
 }];
+    
 
 ```
 #### searchBarCancelButtonClicked:
