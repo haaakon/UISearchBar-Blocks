@@ -6,14 +6,14 @@
 //  Copyright (c) 2013 Håkon Bogen. All rights reserved.
 //
 
-#import "HBViewController.h"
+#import "AAAViewController.h"
 #import "UISearchBar+Blocks.h"
 
-@interface HBViewController ()
+@interface AAAViewController ()
 
 @end
 
-@implementation HBViewController
+@implementation AAAViewController
 
 - (void)viewDidLoad
 {

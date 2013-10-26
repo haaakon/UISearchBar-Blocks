@@ -13,9 +13,9 @@
 		ECAA7CF4181599BC00D8784E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAA7CF3181599BC00D8784E /* UIKit.framework */; };
 		ECAA7CFA181599BC00D8784E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECAA7CF8181599BC00D8784E /* InfoPlist.strings */; };
 		ECAA7CFC181599BC00D8784E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAA7CFB181599BC00D8784E /* main.m */; };
-		ECAA7D00181599BC00D8784E /* HBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAA7CFF181599BC00D8784E /* HBAppDelegate.m */; };
+		ECAA7D00181599BC00D8784E /* AAAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAA7CFF181599BC00D8784E /* AAAAppDelegate.m */; };
 		ECAA7D03181599BC00D8784E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAA7D01181599BC00D8784E /* Main.storyboard */; };
-		ECAA7D06181599BC00D8784E /* HBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAA7D05181599BC00D8784E /* HBViewController.m */; };
+		ECAA7D06181599BC00D8784E /* AAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAA7D05181599BC00D8784E /* AAAViewController.m */; };
 		ECAA7D08181599BC00D8784E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAA7D07181599BC00D8784E /* Images.xcassets */; };
 		ECAA7D0F181599BC00D8784E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAA7D0E181599BC00D8784E /* XCTest.framework */; };
 		ECAA7D10181599BC00D8784E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAA7CEF181599BC00D8784E /* Foundation.framework */; };
@@ -35,8 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EC7E1D391815A73300D1F26E /* UISearchBar+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISearchBar+Blocks.m"; path = "../../UISearchBar-Blocks/UISearchBar+Blocks.m"; sourceTree = "<group>"; };
-		EC7E1D3A1815A73300D1F26E /* UISearchBar+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+Blocks.h"; path = "../../UISearchBar-Blocks/UISearchBar+Blocks.h"; sourceTree = "<group>"; };
+		EC7E1D391815A73300D1F26E /* UISearchBar+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISearchBar+Blocks.m"; path = "../UISearchBar-Blocks/UISearchBar+Blocks.m"; sourceTree = "<group>"; };
+		EC7E1D3A1815A73300D1F26E /* UISearchBar+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+Blocks.h"; path = "../UISearchBar-Blocks/UISearchBar+Blocks.h"; sourceTree = "<group>"; };
 		ECAA7CEC181599BC00D8784E /* UISearchBar-Blocks Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UISearchBar-Blocks Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAA7CEF181599BC00D8784E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECAA7CF1181599BC00D8784E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,11 +45,11 @@
 		ECAA7CF9181599BC00D8784E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ECAA7CFB181599BC00D8784E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECAA7CFD181599BC00D8784E /* UISearchBar-Blocks Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISearchBar-Blocks Example-Prefix.pch"; sourceTree = "<group>"; };
-		ECAA7CFE181599BC00D8784E /* HBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBAppDelegate.h; sourceTree = "<group>"; };
-		ECAA7CFF181599BC00D8784E /* HBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBAppDelegate.m; sourceTree = "<group>"; };
+		ECAA7CFE181599BC00D8784E /* AAAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAAppDelegate.h; sourceTree = "<group>"; };
+		ECAA7CFF181599BC00D8784E /* AAAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAAppDelegate.m; sourceTree = "<group>"; };
 		ECAA7D02181599BC00D8784E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ECAA7D04181599BC00D8784E /* HBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBViewController.h; sourceTree = "<group>"; };
-		ECAA7D05181599BC00D8784E /* HBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBViewController.m; sourceTree = "<group>"; };
+		ECAA7D04181599BC00D8784E /* AAAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAViewController.h; sourceTree = "<group>"; };
+		ECAA7D05181599BC00D8784E /* AAAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAViewController.m; sourceTree = "<group>"; };
 		ECAA7D07181599BC00D8784E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ECAA7D0D181599BC00D8784E /* UISearchBar-Blocks ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISearchBar-Blocks ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAA7D0E181599BC00D8784E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -85,6 +85,8 @@
 		ECAA7CE3181599BC00D8784E = {
 			isa = PBXGroup;
 			children = (
+				EC7E1D3A1815A73300D1F26E /* UISearchBar+Blocks.h */,
+				EC7E1D391815A73300D1F26E /* UISearchBar+Blocks.m */,
 				ECAA7CF5181599BC00D8784E /* UISearchBar-Blocks Example */,
 				ECAA7D14181599BC00D8784E /* UISearchBar-Blocks ExampleTests */,
 				ECAA7CEE181599BC00D8784E /* Frameworks */,
@@ -115,13 +117,11 @@
 		ECAA7CF5181599BC00D8784E /* UISearchBar-Blocks Example */ = {
 			isa = PBXGroup;
 			children = (
-				ECAA7CFE181599BC00D8784E /* HBAppDelegate.h */,
-				ECAA7CFF181599BC00D8784E /* HBAppDelegate.m */,
-				EC7E1D391815A73300D1F26E /* UISearchBar+Blocks.m */,
-				EC7E1D3A1815A73300D1F26E /* UISearchBar+Blocks.h */,
+				ECAA7CFE181599BC00D8784E /* AAAAppDelegate.h */,
+				ECAA7CFF181599BC00D8784E /* AAAAppDelegate.m */,
 				ECAA7D01181599BC00D8784E /* Main.storyboard */,
-				ECAA7D04181599BC00D8784E /* HBViewController.h */,
-				ECAA7D05181599BC00D8784E /* HBViewController.m */,
+				ECAA7D04181599BC00D8784E /* AAAViewController.h */,
+				ECAA7D05181599BC00D8784E /* AAAViewController.m */,
 				ECAA7D07181599BC00D8784E /* Images.xcassets */,
 				ECAA7CF6181599BC00D8784E /* Supporting Files */,
 			);
@@ -255,9 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECAA7D06181599BC00D8784E /* HBViewController.m in Sources */,
+				ECAA7D06181599BC00D8784E /* AAAViewController.m in Sources */,
 				EC7E1D3B1815A73300D1F26E /* UISearchBar+Blocks.m in Sources */,
-				ECAA7D00181599BC00D8784E /* HBAppDelegate.m in Sources */,
+				ECAA7D00181599BC00D8784E /* AAAAppDelegate.m in Sources */,
 				ECAA7CFC181599BC00D8784E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

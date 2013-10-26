@@ -19,18 +19,18 @@ typedef void (^UISearchBarScopeIndexBlock)(UISearchBar *searchBar, NSInteger sel
 @implementation UISearchBar (Blocks)
 
 
-static const void *UISearchBarDelegateKey                                = &UISearchBarDelegateKey;
-static const void *UISearchBarShouldBeginEditingKey                      = &UISearchBarShouldBeginEditingKey;
-static const void *UISearchBarTextDidBeginEditingKey                     = &UISearchBarTextDidBeginEditingKey;
-static const void *UISearchBarShouldEndEditingKey                        = &UISearchBarShouldEndEditingKey;
-static const void *UISearchBarTextDidEndEditingKey                       = &UISearchBarTextDidEndEditingKey;
-static const void *UISearchBarTextDidChangeKey                           = &UISearchBarTextDidChangeKey;
-static const void *UISearchBarShouldChangeTextInRangeKey                 = &UISearchBarShouldChangeTextInRangeKey;
-static const void *UISearchBarSearchButtonClickedKey                                = &UISearchBarSearchButtonClickedKey;
-static const void *UISearchBarBookmarkButtonClickedKey                                = &UISearchBarBookmarkButtonClickedKey;
-static const void *UISearchBarCancelButtonClickedKey                                = &UISearchBarCancelButtonClickedKey;
-static const void *UISearchBarResultsListButtonClickedKey                                = &UISearchBarResultsListButtonClickedKey;
-static const void *UISearchBarSelectedScopeButtonIndexDidChangeKey                                = &UISearchBarSelectedScopeButtonIndexDidChangeKey;
+static const void *UISearchBarDelegateKey                                     = &UISearchBarDelegateKey;
+static const void *UISearchBarShouldBeginEditingKey                           = &UISearchBarShouldBeginEditingKey;
+static const void *UISearchBarTextDidBeginEditingKey                          = &UISearchBarTextDidBeginEditingKey;
+static const void *UISearchBarShouldEndEditingKey                             = &UISearchBarShouldEndEditingKey;
+static const void *UISearchBarTextDidEndEditingKey                            = &UISearchBarTextDidEndEditingKey;
+static const void *UISearchBarTextDidChangeKey                                = &UISearchBarTextDidChangeKey;
+static const void *UISearchBarShouldChangeTextInRangeKey                      = &UISearchBarShouldChangeTextInRangeKey;
+static const void *UISearchBarSearchButtonClickedKey                          = &UISearchBarSearchButtonClickedKey;
+static const void *UISearchBarBookmarkButtonClickedKey                        = &UISearchBarBookmarkButtonClickedKey;
+static const void *UISearchBarCancelButtonClickedKey                          = &UISearchBarCancelButtonClickedKey;
+static const void *UISearchBarResultsListButtonClickedKey                     = &UISearchBarResultsListButtonClickedKey;
+static const void *UISearchBarSelectedScopeButtonIndexDidChangeKey                      = &UISearchBarSelectedScopeButtonIndexDidChangeKey;
 
 
 

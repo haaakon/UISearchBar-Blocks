@@ -1,5 +1,5 @@
 //
-//  HBViewController.h
+//  HBAppDelegate.h
 //  UISearchBar-Blocks Example
 //
 //  Created by Håkon Bogen on 21.10.13.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HBViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@interface AAAAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Håkon Bogen. All rights reserved.
 //
 
-#import "HBAppDelegate.h"
+#import "AAAAppDelegate.h"
 
-@implementation HBAppDelegate
+@implementation AAAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

@@ -3,10 +3,13 @@ UISearchbar with blocks
 Adds blocks to all UISearchbar delegate methods with a simple and easy to use category, no subclassing. Also allows the use of delegate methods if no block is set.
 
 [![Build Status](https://travis-ci.org/haaakon/UISearchBar-Blocks.png)](https://travis-ci.org/haaakon/UISearchBar-Blocks)
+##The problem
+Delegate methods can be great, but sometimes they will make your View Controller code too long, bloated or confusing, for example if you don't need to do too much in the delegate method that fired.
+ 
+This repo gives you easy non-intrusive access to block callbacks on all the methods in the UISearchBarDelegate protocol.
 
+##USAGE
 
-USAGE
-=====
 
 #### searchBarShouldBeginEditing:
 ```objective-c
